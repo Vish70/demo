@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mytekinnovations</title>
+
+
+    <!-- ///// font  ///// -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Freehand&family=Kaisei+Tokumin:wght@400;500;700&family=Limelight&family=Poppins:wght@300;400;500&family=Righteous&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- //////  font awsome & box icon  ////// -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ///////// box icon  ///////// -->
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ////// crausel  ///// -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- /////////// -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- /////// -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- ///////////////  header  ////////////// -->
+
+    <header>
+        <div class="logo">
+            <img src="image/cropped-Asset-14.png" alt="logo img">
+        </div>
+
+        <nav>
+            <ul class="navbar_links1 nav-li" id="main_nav">
+                <li><a href="#" class="ul1-a-tag a-tag">Home</a></li>
+                <li><a href="#" class="ul1-a-tag a-tag">About Us</a></li>
+                <li><a href="#" class="ul1-a-tag a-tag" id="service" onclick="service()">Service <i class="fa-solid fa-caret-down"></i></a></a>
+                    <ul class="navbar_links2 nav-li" id="navbar">
+                        <li><a href="#" class="ul2-a-tag a-tag">Civil work</a></li>
+                        <li><a href="#" class="ul2-a-tag a-tag">smart class room</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="ul2-a-tag a-tag">contact Us</a></li>
+                <li><a href="#" class="ul2-a-tag a-tag">career</a></li>
+                <li><a href="#" class="ul2-a-tag a-tag">vendor Registartion</a></li>
+
+            </ul>
+
+
+        </nav>
+
+        <div class="app-download">
+            <button class="btn-download"> DOWNLOAD MYTEK APP </button>
+        </div>
+
+        <div class="menu" onclick="burger()">
+            <img src="image/menubar.png" alt="menu">
+        </div>
+
+    </header>
+
+
+    <section class="hero_sec">
+
+        <div class="hero_contaier">
+            <div class="hero_intro">
+                <div class="into1">
+                    <h1>We do IT… </h1>
+                </div>
+                <div class="into2">
+                    <h2>Bringing Team</h2>
+                </div>
+                <div class="into2 intro2-flex">
+                    <div class="span"></div>
+                    <h2 class="Opportuniti"> Opportunities,</h2>
+                </div>
+                <div class="into2">
+                    <h2>Execution</h2>
+                </div>
+
+                <div class="enquiry">
+                    <h3>
+                        ENQUIREY HERE FOR PROJECT FUNDING
+                    </h3>
+                </div>
+
+            </div>
+
+            <div class="swiper mySwiper hero_slider">
+                <div class=" hero_imag swiper-wrapper">
+                    <div class="swiper-slide"> <img src="image/General-Civil-Works.jpg" alt="image"> </div>
+                    <div class="swiper-slide"> <img src="image/Asset-76.jpg" alt="image"> </div>
+                    <div class="swiper-slide"> <img src="image/Asset-80-2048x1177.png" alt="image"> </div>
+                </div>
+                <div class="swiper-button-next btn_swip"></div>
+                <div class="swiper-button-prev btn_swip"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+
+            <!-- <div class="hero_slider swiper">
+
+                <div class="hero_image swiper-wrapper">
+
+                    <div class="imges swiper-slide">
+                        <img src="image/General-Civil-Works.jpg" alt="image">
+                    </div>
+
+                    <div class="imges swiper-slide">
+                        <img src="image/Picture1.png" alt="image">
+                    </div>
+
+                    <div class="imges swiper-slide">
+                        <img src="image/General-Civil-Works.jpg" alt="image">
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </section>
+
+
+
+    <section class="about">
+
+        <div class="about_conainer">
+            <div class="about_text">
+                <div class="about_text_info">
+                    <h2>About Us</h2>
+                    <span></span>
+                </div>
+                <p> Mytek Innovations Private Limited provides reliable services and quality solutions catering to all
+                    types of Engineering and IT-ITES Consultancy services. We attribute our success to building
+                    strategic partnership and treating customers the way we want to be treated.</p>
+
+                <div class="about_bttn">
+                    <button class="read_more">READ MORE</button>
+                </div>
+
+            </div>
+
+            <div class="about_img_sec">
+
+                <div class="about_image">
+                    <img src="image/about_img.jpg" alt="about img">
+                </div>
+
+                <div class="about_p">
+                    <p>
+                        To keep pace with todays fast growing Innovative business climate, we strive to remain on the
+                        cutting edge of service providers by using the latest technology.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="service">
+
+        <div class="img_bg_service">
+
+            <img src="image/mi-768x520.png" alt="image">
+
+        </div>
+
+        <div class="service_section">
+
+            <div class="service_text">
+                <div class="service_name">
+                    <h2>Approach and Methodology</h2>
+                    <span></span>
+                </div>
+                <p>Modular, Disruptive methods, tailored to Business Needs:</p>
+            </div>
+
+            <div class="container_service">
+
+
+                <div class="service_icon_top">
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-68.png" alt="img">
+                        <p>Business <br> Blueprint</p>
+
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="800" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-67.png" alt="img">
+                        <p>Value Stream <br> Mapping</p>
+
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="1100" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-66.png" alt="img">
+                        <p>Customized <br> Design</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="1400" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-65.png" alt="img">
+                        <p>Prototype <br> Development</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="1700" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-64.png" alt="img">
+                        <p>Business Case</p>
+
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="2000" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-63.png" alt="img">
+                        <p>Technology <br> Selection <br> Prioritisation</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="2300" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-62.png" alt="img">
+                        <p>Need Analysis <br> Modelling</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="2500" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-61.png" alt="img">
+                        <p>City/Account as <br> a Customer</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="2700" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-60.png" alt="img">
+                        <p>Concept Notes</p>
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-down" data-aos-delay="3000" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/Asset-59.png" alt="img">
+                        <p>Coordination</p>
+                    </div>
+
+                </div>
+
+                <!-- ///////  top arrow //////// -->
+
+                <div class="service_icon_top">
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="2300" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="2500" data-aos-delay="1400"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="2700" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview.png" alt="img">
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ///////  Midd arow icon //////// -->
+
+                <div class="service_icon_top">
+
+                    <div class="service_icon midd_arrow" data-aos="fade-right" data-aos-delay="300"
+                        data-aos-offset="100" data-aos-easing="ease-in-out">
+                        <img src="image/Asset-124@2x.png" alt="img">
+                    </div>
+
+                    <div class="service_icon midd_arrow" data-aos="fade-right" data-aos-delay="1000"
+                        data-aos-offset="150" data-aos-easing="ease-in-out">
+                        <img src="image/Asset-125@2x.png" alt="img">
+                    </div>
+
+                    <div class="service_icon midd_arrow" data-aos="fade-right" data-aos-delay="1400"
+                        data-aos-offset="200" data-aos-easing="ease-in-out">
+                        <img src="image/Asset-126@2x.png" alt="img">
+                    </div>
+
+                    <div class="service_icon midd_arrow" data-aos="fade-right" data-aos-delay="1500"
+                        data-aos-offset="300" data-aos-easing="ease-in-out">
+                        <img src="image/Asset-127@2x.png" alt="img">
+                    </div>
+
+                </div>
+
+
+                <!-- ///////  bottom arrow //////// -->
+
+                <div class="service_icon_top">
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="800" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="1100" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="1400" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="1700" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="2000" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="2300" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="2600" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="2800" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+                    <div class="service_icon arrow" data-aos="fade-down" data-aos-delay="3000" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img src="image/SharedScreenshot-removebg-preview-bottom.png" alt="img">
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- ///////  bottom icon //////// -->
+
+                <div class="service_icon_top">
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
+                        <p>Incubator <br> Strategy</p>
+                        <img src="image/Asset-58.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1500">
+                        <p>Expert's <br> Feedback</p>
+                        <img src="image/Asset-57.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="1500">
+                        <p>Open <br> Innovation</p>
+                        <img src="image/Asset-56.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1500">
+                        <p>Research & <br> Implementation</p>
+                        <img src="image/Asset-55.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1500">
+                        <p>Competitive <br> Pricing</p>
+                        <img src="image/Asset-54.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1500">
+                        <p>Partnerships</p>
+                        <img src="image/Asset-53.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="2300" data-aos-duration="1500">
+                        <p> Global Market <br> Study</p>
+                        <img src="image/Asset-52.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="2600" data-aos-duration="1500">
+                        <p> Scaling <br> Approach </p>
+                        <img src="image/Asset-51.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="2800" data-aos-duration="1500">
+                        <p>User <br> Acquisition</p>
+                        <img src="image/Asset-50.png" alt="img">
+                    </div>
+
+                    <div class="service_icon" data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1500">
+                        <p> Branding & <br> Marketing</p>
+                        <img src="image/Asset-49.png" alt="img">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="offering">
+
+
+        <div class="offering-container">
+
+            <div class="offer_text">
+                <div class="offer_name">
+                    <h2>Offering</h2>
+                    <span></span>
+                </div>
+                <div class="li_offer">
+                    <li>Infrastructure</li>
+                    <li>cvil</li>
+                    <li>Electrical </li>
+                    <li>Mass Transit Projects</li>
+                    <li>Offerings-IT & Services</li>
+                    <li>Security & Surveillance </li>
+                </div>
+                <a href="#">READ MORE</a>
+            </div>
+
+            <div class="images_offer">
+                <div class="offer_img">
+                    <img src="image/Asset-123@2x-1024x902.png" alt="image">
+                </div>
+                <p>Adoption, Amplification & Augmentation….. </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="">
+
+
+    </section>
+
+
+
+
+
+    <!-- /////////  js  ////////// -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 400,
+            duration: 800
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 20,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+
+      function service(){
+        
+      var burger = document.getElementById('service');
+      var navbar = document.getElementById('navbar');
+        // navbar.style.display="block";
+        if(navbar.style.display=="none"){
+            navbar.style.display="block";
+        }else{
+            navbar.style.display="none";
+        }
+      }
+
+      
+
+      function burger(){
+        
+        // var burger = document.getElementById('service');
+        var navbar_main = document.getElementById('main_nav');
+          // navbar.style.display="block";
+          if(navbar_main.style.display=="none"){
+            navbar_main.style.display="block";
+          }else{
+            navbar_main.style.display="none";
+          }
+        }
+
+    </script>
+
+
+
+
+    <script src="jquery.js"></script>
+
+</body>
+
+</html>
