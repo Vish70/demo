@@ -447,7 +447,7 @@ header .navbar_links1{
     text-align: center;
     flex-direction: column;
     position:absolute;
-    top:13%;
+    top:23%;
     grid-row-gap:1rem;
     width:100vw;
     left:-2rem;
@@ -609,6 +609,9 @@ header{
     height:50px;
 }
 
+header .navbar_links1{
+    top:12%;
+}
 
 /* //// about ////// */
 
@@ -661,6 +664,11 @@ header .logo{
         padding:3px;
         height:40px;
     }
+
+    header .navbar_links1{
+        top:10%;
+    }
+    
 
     /* //// hero  ////// */
 
